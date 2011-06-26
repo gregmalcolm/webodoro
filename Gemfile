@@ -18,6 +18,9 @@ gem 'sqlite3'
 gem 'nokogiri'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
+gem 'guard'
+gem 'guard-coffeescript'
+gem 'guard-livereload'
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
@@ -33,4 +36,5 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'wirble'
   gem 'jasmine'
+  gem 'growl'
 end

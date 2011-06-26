@@ -11,12 +11,14 @@
 #   - dist/**/*.js
 #
 src_files:
-  - javascripts/prototype.js
-  - javascripts/effects.js
-  - javascripts/controls.js
-  - javascripts/dragdrop.js
-  - javascripts/application.js
-  - javascripts/**/*.js
+  - public/javascripts/prototype.js
+  - public/javascripts/effects.js
+  - public/javascripts/controls.js
+  - public/javascripts/dragdrop.js
+  - public/javascripts/application.js
+  - public/javascripts/**/*.js
+  - underscore.js
+  - compiled/math.js
 
 # stylesheets
 #
@@ -67,7 +69,7 @@ spec_files:
 #
 # src_dir: public
 #
-src_dir: public
+src_dir: public/javascripts
 
 # spec_dir
 #
