@@ -1,5 +1,4 @@
 class TimerController < ApplicationController
-  def index
-    render :nothing => true
+  def view
   end
 end

@@ -31,4 +31,5 @@ group :development, :test do
   gem 'cucumber-rails'
   gem 'factory_girl_rails'
   gem 'database_cleaner'
+  gem 'wirble'
 end

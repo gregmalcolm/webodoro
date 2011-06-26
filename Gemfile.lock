@@ -136,6 +136,7 @@ GEM
     treetop (1.4.9)
       polyglot (>= 0.3.1)
     tzinfo (0.3.28)
+    wirble (0.1.3)
     xpath (0.1.4)
       nokogiri (~> 1.3)
 
@@ -155,3 +156,4 @@ DEPENDENCIES
   ruby-debug19
   sqlite3
   sqlite3-ruby
+  wirble
