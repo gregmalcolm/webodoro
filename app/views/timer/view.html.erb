@@ -4,7 +4,7 @@
     00:00
   </div>
   <div>
-    <%= button_to 'Start', nil , { :id => 'start_pause_button' } %>
-    <%= button_to 'Stop', nil , { :id => 'stop_button' } %>
+    <%= button_to 'Start', {:action => 'start'}, :remote=>true %>
+    <%= button_to 'Stop' %>
   </div>
 </div>

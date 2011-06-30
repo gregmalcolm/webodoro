@@ -18,3 +18,4 @@ describe "Timer", ->
 
     it "displays the value as 10:00", ->
       expect(subject.text()).toBe('10:00')
+      

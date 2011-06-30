@@ -4,15 +4,15 @@
 #guard 'coffeescript', :input => 'app/coffeescripts'
 
 guard 'coffeescript', :output => 'public/javascripts/compiled' do
-  watch(/^app\/coffeescripts\/(.*)\.coffee/)
+  watch(%r{^app/coffeescripts/(.*)\.coffee$})
 end
 
 guard 'coffeescript', :output => 'spec/javascripts' do
-  watch(/^spec\/coffeescripts\/(.*)\.coffee/)
+  watch(%r{^spec/coffeescripts/(.*)\.coffee$})
 end
 
 guard 'livereload' do
-  watch(/^spec\/javascripts\/.+\.js$/)
-  watch(/^public\/javascripts\/compiled\/.+\.js$/)
+  watch(%r{^spec/javascripts/.+\.js$})
+  watch(%r{^public/javascripts/compiled/.+\.js$})
 end
 

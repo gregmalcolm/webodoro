@@ -1,6 +1,8 @@
 Webodoro::Application.routes.draw do
 
-  match 'timer' => 'timer#view'
+  match 'timer'  => 'timer#view'
+  match 'timer/start' => 'timer#start'
+
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
